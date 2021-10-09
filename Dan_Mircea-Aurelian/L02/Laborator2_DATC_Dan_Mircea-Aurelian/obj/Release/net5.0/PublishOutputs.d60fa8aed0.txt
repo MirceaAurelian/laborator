@@ -1,0 +1,11 @@
+E:\Faculta\DATC\laborator\Laborator2_DATC_Dan_Mircea-Aurelian\publish\Laborator2_DATC_Dan_Mircea-Aurelian.exe
+E:\Faculta\DATC\laborator\Laborator2_DATC_Dan_Mircea-Aurelian\publish\appsettings.Development.json
+E:\Faculta\DATC\laborator\Laborator2_DATC_Dan_Mircea-Aurelian\publish\appsettings.json
+E:\Faculta\DATC\laborator\Laborator2_DATC_Dan_Mircea-Aurelian\publish\Laborator2_DATC_Dan_Mircea-Aurelian.dll
+E:\Faculta\DATC\laborator\Laborator2_DATC_Dan_Mircea-Aurelian\publish\Laborator2_DATC_Dan_Mircea-Aurelian.deps.json
+E:\Faculta\DATC\laborator\Laborator2_DATC_Dan_Mircea-Aurelian\publish\Laborator2_DATC_Dan_Mircea-Aurelian.runtimeconfig.json
+E:\Faculta\DATC\laborator\Laborator2_DATC_Dan_Mircea-Aurelian\publish\Laborator2_DATC_Dan_Mircea-Aurelian.pdb
+E:\Faculta\DATC\laborator\Laborator2_DATC_Dan_Mircea-Aurelian\publish\Microsoft.OpenApi.dll
+E:\Faculta\DATC\laborator\Laborator2_DATC_Dan_Mircea-Aurelian\publish\Swashbuckle.AspNetCore.Swagger.dll
+E:\Faculta\DATC\laborator\Laborator2_DATC_Dan_Mircea-Aurelian\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Faculta\DATC\laborator\Laborator2_DATC_Dan_Mircea-Aurelian\publish\Swashbuckle.AspNetCore.SwaggerUI.dll
