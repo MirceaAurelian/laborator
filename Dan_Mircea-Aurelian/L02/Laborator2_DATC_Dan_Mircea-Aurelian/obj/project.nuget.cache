@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2xinb1U8JjH542A4vYU0VEmKkcQOCVzX4ZI1vRyNTNrO718VOUaHo8vRz+skrBp0IwMsYkP6yCmWSMdq7Eo6IQ==",
+  "dgSpecHash": "b8/DpJ9A7Rtew3UKoo1gXuBjyMVFFYFOcvPDGsg2tn8DvaIjDDchZuJJiyQIliY/Vv8QadjpmQbgEAaO5nOlCA==",
   "success": true,
-  "projectFilePath": "E:\\Faculta\\DATC\\laborator\\Laborator2_DATC_Dan_Mircea-Aurelian\\Laborator2_DATC_Dan_Mircea-Aurelian.csproj",
+  "projectFilePath": "E:\\Faculta\\DATC\\laborator\\Dan_Mircea-Aurelian\\L02\\Laborator2_DATC_Dan_Mircea-Aurelian\\Laborator2_DATC_Dan_Mircea-Aurelian.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

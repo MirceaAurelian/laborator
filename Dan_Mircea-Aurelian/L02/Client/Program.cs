@@ -7,7 +7,7 @@ namespace laborator
     {
         static void Main(string[] args)
         {
-            var client = new RestClient("http://localhost:61495/Student");
+            var client = new RestClient("http://localhost:61495/Students");
             int id, an;
             string nume, facultate, val, op, camp;
             client.Timeout = -1;
@@ -39,9 +39,8 @@ namespace laborator
                                 break;
                     case "2":   Console.Write("Dati identificatorul studentului: ");
                                 id = Convert.ToInt32(Console.ReadLine());
-                                request = new RestRequest(Method.GET);
-                                request.AddParameter("Id", id);
-
+                                request = new RestRequest("{id}", Method.GET);
+                                request.AddParameter("id", id, ParameterType.UrlSegment);    
                                 response = client.Execute(request);
                                 Console.WriteLine(response.Content);
 
@@ -61,10 +60,8 @@ namespace laborator
                                 break;
                     case "4":   Console.Write("Dati identificatorul studentului: ");
                                 id = Convert.ToInt32(Console.ReadLine());
-                                request = new RestRequest(Method.DELETE);
-                                request.AddJsonBody(new { Id = id });
-
-
+                                request = new RestRequest("{id}", Method.DELETE);
+                                request.AddParameter("id", id, ParameterType.UrlSegment);
                                 response = client.Execute(request);
                                 Console.WriteLine(response.Content);
 

@@ -1,37 +1,35 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Laborator2_DATC_Dan_Mircea_Aurelian.Models;
+using Laborator2_DATC_Dan_Mircea_Aurelian.Repositories;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Laborator2_DATC_Dan_Mircea_Aurelian.Models;
-using Laborator2_DATC_Dan_Mircea_Aurelian.Repositories;
-using System.Text.Json;
+using System;
+using System.Collections.Generic;
 
 
 namespace Laborator2_DATC_Dan_Mircea_Aurelian.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class StudentController : ControllerBase
+    public class StudentsController : ControllerBase
     {
 
-        private readonly ILogger<StudentController> _logger;
+        private readonly ILogger<StudentsController> _logger;
 
-        public StudentController(ILogger<StudentController> logger)
+        public StudentsController(ILogger<StudentsController> logger)
         {
             _logger = logger;
         }
 
-        [HttpGet]
+        [HttpGet("{id}")]
         public Student Get(int id)
         {
-            foreach(var i in StudentRepo.Studenti)
+            foreach (var i in StudentRepo.Studenti)
             {
                 if (i.id == id)
                     return i;
             }
             return null;
+
         }
         [HttpPost]
         public IEnumerable<Student> Post([FromBody] Student student)
@@ -40,22 +38,26 @@ namespace Laborator2_DATC_Dan_Mircea_Aurelian.Controllers
             return StudentRepo.Studenti.ToArray();
         }
         [HttpPut]
-        public IEnumerable<Student> Put([FromBody]Update update)
+        public IEnumerable<Student> Put([FromBody] Update update)
         {
-            foreach(var i in StudentRepo.Studenti)
+            foreach (var i in StudentRepo.Studenti)
             {
-                if(i.id == update.id)
+                if (i.id == update.id)
                 {
-                    switch(update.camp.ToLower())
+                    switch (update.camp.ToLower())
                     {
-                        case "id": i.id = Convert.ToInt32(update.valoare);
-                                   break;
-                        case "nume": i.nume = update.valoare;
-                                     break;
-                        case "facultate": i.facultate = update.valoare;
-                                          break;
-                        case "an": i.an = Convert.ToInt32(update.valoare);
-                                   break;
+                        case "id":
+                            i.id = Convert.ToInt32(update.valoare);
+                            break;
+                        case "nume":
+                            i.nume = update.valoare;
+                            break;
+                        case "facultate":
+                            i.facultate = update.valoare;
+                            break;
+                        case "an":
+                            i.an = Convert.ToInt32(update.valoare);
+                            break;
                     }
                     break;
                 }
@@ -63,12 +65,12 @@ namespace Laborator2_DATC_Dan_Mircea_Aurelian.Controllers
             }
             return StudentRepo.Studenti.ToArray();
         }
-        [HttpDelete]
-        public IEnumerable<Student> Delete([FromBody] JsonElement id)
+        [HttpDelete("{id}")]
+        public IEnumerable<Student> Delete(int id)
         {
             foreach (var i in StudentRepo.Studenti)
             {
-                if (i.id == id.GetProperty("Id").GetInt32())
+                if (i.id == id)
                 {
                     StudentRepo.Studenti.Remove(i);
                     break;

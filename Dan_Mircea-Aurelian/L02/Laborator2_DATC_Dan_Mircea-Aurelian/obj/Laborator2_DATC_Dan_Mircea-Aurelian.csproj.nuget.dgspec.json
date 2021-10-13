@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Faculta\\DATC\\laborator\\Laborator2_DATC_Dan_Mircea-Aurelian\\Laborator2_DATC_Dan_Mircea-Aurelian.csproj": {}
+    "E:\\Faculta\\DATC\\laborator\\Dan_Mircea-Aurelian\\L02\\Laborator2_DATC_Dan_Mircea-Aurelian\\Laborator2_DATC_Dan_Mircea-Aurelian.csproj": {}
   },
   "projects": {
-    "E:\\Faculta\\DATC\\laborator\\Laborator2_DATC_Dan_Mircea-Aurelian\\Laborator2_DATC_Dan_Mircea-Aurelian.csproj": {
+    "E:\\Faculta\\DATC\\laborator\\Dan_Mircea-Aurelian\\L02\\Laborator2_DATC_Dan_Mircea-Aurelian\\Laborator2_DATC_Dan_Mircea-Aurelian.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Faculta\\DATC\\laborator\\Laborator2_DATC_Dan_Mircea-Aurelian\\Laborator2_DATC_Dan_Mircea-Aurelian.csproj",
+        "projectUniqueName": "E:\\Faculta\\DATC\\laborator\\Dan_Mircea-Aurelian\\L02\\Laborator2_DATC_Dan_Mircea-Aurelian\\Laborator2_DATC_Dan_Mircea-Aurelian.csproj",
         "projectName": "Laborator2_DATC_Dan_Mircea-Aurelian",
-        "projectPath": "E:\\Faculta\\DATC\\laborator\\Laborator2_DATC_Dan_Mircea-Aurelian\\Laborator2_DATC_Dan_Mircea-Aurelian.csproj",
+        "projectPath": "E:\\Faculta\\DATC\\laborator\\Dan_Mircea-Aurelian\\L02\\Laborator2_DATC_Dan_Mircea-Aurelian\\Laborator2_DATC_Dan_Mircea-Aurelian.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "E:\\Faculta\\DATC\\laborator\\Laborator2_DATC_Dan_Mircea-Aurelian\\obj\\",
+        "outputPath": "E:\\Faculta\\DATC\\laborator\\Dan_Mircea-Aurelian\\L02\\Laborator2_DATC_Dan_Mircea-Aurelian\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
